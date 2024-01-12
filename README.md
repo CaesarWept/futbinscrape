@@ -2,7 +2,7 @@
 
 ## Overview
 
-- This Python application is designed to compare retired football players using an Elo-based rating system, inspired by the player comparison feature on Transfermarkt.
+- This Python script was designed to compare retired football players using an Elo-based rating system, inspired by the player comparison feature on Transfermarkt.
 - The aim was to create a python script that could compare players who are no longer active in professional football, eg: Iniesta, Robben, Maradona.
 - V0.1. Simple early draft Created on a PC without access to VS Code or alternative editor. 
 
