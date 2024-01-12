@@ -27,6 +27,23 @@ The Futbin Player Data Scraper is a Python script designed to extract player dat
 
 3. **CSV Output:**
     - The script will generate a CSV file named `player_data.csv` in the same directory.
+
+### Example
+The following is an example of the data that will be saved to the CSV file:
+
+```Name,Club,Nation,League,Rating,Version,Pace,Shooting,Passing,Dribbling,Defense,Physical
+Pelé,Paris Saint-Germain,Brazil,Ligue 1,96,Winter Wildcard,94,95,90,95,59,80
+Cristiano Ronaldo,Manchester United,Portugal,Premier League,94,Base,93,94,79,94,43,75
+Lionel Messi,FC Barcelona,Argentina,La Liga,93,Base,92,91,86,92,54,82
+Neymar Jr.,Paris Saint-Germain,Brazil,Ligue1,93,Versus Ice,91,87,90,97,41,66
+Kylian Mbappé,Paris Saint-Germain,France,Ligue1,93,UCL TOTGS,98,92,84,94,40,81```
+
+## Troubleshooting
+
+- If you are having problems running the script, make sure that you have installed the required Python libraries.
+- If you are getting an error message saying "ModuleNotFoundError: No module named 'bs4'", make sure that you have installed the beautifulsoup4 library.
+- If you are getting an error message saying "ModuleNotFoundError: No module named 'requests'", make sure that you have installed the requests library.
+- If you are getting an error message saying "ModuleNotFoundError: No module named 'csv'", make sure that you have installed the csv library.
   
 ## Football Player Comparison App
 
