@@ -1,63 +1,81 @@
-# Football Player Comparison App
+# Football Player Comparison App and Futbin Player Data Scraper
+Inspired by the transfermarkt player comparison feature. Data scraping exercise. Inspired by the player comparison feature on transfermarkt, the goal was to compare retired players, eg Robben, Iniesta, Maradona, etc.  Built as a data scraping exercise on a PC without access to VS studio or an alternative code editor :(. 
 
-## Overview
-- Exercise in data scraping...
-- This Python script was designed to compare retired football players using an Elo-based rating system, inspired by the player comparison feature on Transfermarkt.
-- The aim was to create a python script that could compare players who are no longer active in professional football, eg: Iniesta, Robben, Maradona.
-- V0.1. Simple early draft created on a PC without access to VS Code or alternative editor. 
+## Futbin Player Data Scraper
 
+### Overview
 
-## Features
+The Futbin Player Data Scraper is a Python script designed to extract player data from the Futbin website. It focuses on  player details, including name, club, nation, league, rating, version, and attribute details.
 
-- **Player Elo Ratings:** Each player is assigned an Elo rating, which adjusts based on the outcomes of comparisons.
-  
-- **Player Images:** The application displays player images for side-by-side visual comparisons.
+### Features
 
-- **Dynamic Resizing:** Player images are dynamically resized to fit the user's screen, maintaining the original aspect ratios.
+- **Data Extraction:** Extracts player information from multiple pages on the Futbin website.
 
-- **User Interaction:** Users can vote for their preferred player in each comparison, influencing the players' Elo ratings.
+- **Pagination Handling:** Dynamically identifies and navigates through multiple pages to ensure all player data is captured.
 
-- **Persistent Data:** Player data, including Elo ratings, is saved locally to provide continuity across sessions.
+- **CSV Export:** Outputs the collected player data to a CSV file (`player_data.csv`) for easy integration with data analysis tools.
 
-## Usage
+### Usage
 
 1. **Installation:**
     - Clone the repository to your local machine.
-    - Ensure you have Python installed.
+    - Install the required Python packages using `pip install -r requirements.txt`.
 
-2. **Run the Application:**
+2. **Run the Script:**
     - Open a terminal in the project directory.
-    - Run `program.py`.
+    - Run the script using `python filename.py` (replace `filename.py` with the actual filename of your Python script).
 
-3. **Player Comparisons:**
-    - Players are presented side-by-side with their names and Elo ratings.
-    - Vote for your preferred player by clicking the corresponding button.
-    - Elo ratings are updated based on the outcomes of each comparison.
+3. **CSV Output:**
+    - The script will generate a CSV file named `player_data.csv` in the same directory.
+  
+## Football Player Comparison App
 
-4. **Local Data Storage:**
-    - Player data, including Elo ratings, is saved in a local file (`players_data.pkl`).
-    - Ensure the file has read and write permissions.
+### Overview
 
-## Customization
+The Football Player Comparison App allows users to compare retired football players who are no longer playing. 
 
-- **Adjust Elo Parameters:**
-    - Modify the `STARTING_ELO` and `k_factor` variables to adjust the starting Elo rating and the impact of each match on ratings.
+### Features
 
-- **Resize Images:**
-    - Change the `target_screen_fraction` variable to adjust the size of player images on the screen.
+- **Player Comparison:** View two players side by side and vote for the preferred player.
+  
+- **Elo Rating System:** Utilizes an Elo rating system to dynamically adjust player ratings based on user votes.
 
-- **Button Size:**
-    - Customize the size of the vote buttons by modifying the `button_size` variable.
+- **Image Resizing:** Automatically resizes player images for a consistent and appealing user interface.
 
-## Inspirations
+### Usage
 
-This application is inspired by the player comparison features found on popular football-related platforms, offering a nostalgic experience for football fans to reminisce about retired players.
+1. **Installation:**
+    - Clone the repository to your local machine.
+    - Ensure you have Python and the required dependencies (Tkinter, Pillow) installed.
 
-## Acknowledgments
+2. **Run the App:**
+    - Open a terminal in the project directory.
+    - Run the app using `program.py`
+      
+3. **Player Data Storage:**
+    - Player data, including Elo ratings, is saved locally in a file named `players_data.pkl`.
 
-- Inspired by Transfermarkt Player Comparison Tool
-- Built using Python, Tkinter, and PIL.
+### Customization
 
-## License
+- **Player Images:**
+    - Add or replace player images in the designated folder (`E:\Sept 2022 Lenovo\Football` in the provided script).
+
+- **Elo Starting Value:**
+    - Adjust the `STARTING_ELO` constant in the script to change the initial Elo rating.
+
+
+### Requirements
+
+- Python 3.x
+- BeautifulSoup (installed via `pip install beautifulsoup4`)
+- Requests (installed via `pip install requests`)
+
+### Acknowledgments
+
+- These projects are developed for research and analysis purposes, providing tools for comparing retired football players.
+- Inspired by the transfermarkt player comparison feature. 
+
+
+### License
 
 This project is licensed under the [MIT License](LICENSE).
