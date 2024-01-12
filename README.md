@@ -36,7 +36,8 @@ Pelé,Paris Saint-Germain,Brazil,Ligue 1,96,Winter Wildcard,94,95,90,95,59,80
 Cristiano Ronaldo,Manchester United,Portugal,Premier League,94,Base,93,94,79,94,43,75
 Lionel Messi,FC Barcelona,Argentina,La Liga,93,Base,92,91,86,92,54,82
 Neymar Jr.,Paris Saint-Germain,Brazil,Ligue1,93,Versus Ice,91,87,90,97,41,66
-Kylian Mbappé,Paris Saint-Germain,France,Ligue1,93,UCL TOTGS,98,92,84,94,40,81```
+Kylian Mbappé,Paris Saint-Germain,France,Ligue1,93,UCL TOTGS,98,92,84,94,40,81
+```
 
 ## Troubleshooting
 
