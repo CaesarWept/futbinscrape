@@ -27,7 +27,7 @@
 
 2. **Run the Application:**
     - Open a terminal in the project directory.
-    - Run `python filename.py` (replace `filename.py` with the actual filename of your Python script).
+    - Run `program.py`.
 
 3. **Player Comparisons:**
     - Players are presented side-by-side with their names and Elo ratings.
